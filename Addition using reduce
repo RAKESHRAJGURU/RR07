@@ -1,0 +1,7 @@
+def add(k,l):
+    return k + l
+from functools import reduce
+for i in range(1,10):
+    print(i)    
+a = reduce(add,range(1,10))
+print(a)
